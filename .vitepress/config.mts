@@ -20,7 +20,7 @@ export default defineConfig({
           { text: "Areas", link: "/" },
           { text: "Cycles", link: "/" },
           { text: "Stores", link: "/" },
-          { text: "Products", link: "/" },
+          { text: "Products", link: "/guides/products" },
           { text: "Inventory", link: "/" },
           { text: "Sensors", link: "/" },
           { text: "Notifications", link: "/" },
