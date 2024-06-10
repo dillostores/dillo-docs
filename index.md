@@ -8,18 +8,18 @@ hero:
   tagline: 
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Docs
       link: /markdown-examples
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Guides and Tutorials
+    details: Find step-by-step instructions on how to use our dashboards and models.
+  - title: Documented Models
+    details: Access complete documentation for all our models.
+  - title: Detailed Instructions
+    details: Clear instructions for each tool and functionality.
 ---
 
