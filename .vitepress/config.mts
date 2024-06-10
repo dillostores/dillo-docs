@@ -1,9 +1,19 @@
 import { defineConfig } from "vitepress";
+import dotenv from "dotenv";
 
-// https://vitepress.dev/reference/site-config
+dotenv.config();
+
 export default defineConfig({
   title: "Dillo Docs",
   description: "Official dillo documentation for users",
+  head: [
+    ["script", { src: "../utils/auth.js" }],
+  ],
+  vite: {
+    define: {
+      'process.env': process.env
+    },
+  },
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
@@ -21,7 +31,7 @@ export default defineConfig({
           { text: "Cycles", link: "/" },
           { text: "Stores", link: "/" },
           { text: "Products", link: "/guides/products" },
-          { text: "Inventory", link: "/" },
+          { text: "Inventory", link: "/guides/inventory" },
           { text: "Sensors", link: "/" },
           { text: "Notifications", link: "/" },
           { text: "Utils", link: "/guides/utils" },
@@ -35,9 +45,8 @@ export default defineConfig({
         ],
       },
     ],
-
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/dillostores/" },
     ],
   },
-});
+}) as import("vitepress").UserConfig;
