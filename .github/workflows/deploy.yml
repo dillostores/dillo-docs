@@ -27,11 +27,6 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      VITE_HOST: ${{ secrets.VITE_HOST }}
-      VITE_PORT: ${{ secrets.VITE_PORT }}
-      VITE_LOGIN_APP: ${{ secrets.VITE_LOGIN_APP }}
-      VITE_JWT_KEY: ${{ secrets.VITE_JWT_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
