@@ -1,6 +1,6 @@
-# v0.1.3 / 10/06/2024
+# v0.1.4 / 10/06/2024
 
 ## General
 
-- Fixed deploy.yml by changing path at artifact job
+- Updated vite configuration, removing port/host related data
   
