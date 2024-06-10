@@ -6,14 +6,6 @@ dotenv.config();
 export default defineConfig({
   title: "Dillo Docs",
   description: "Official dillo documentation for users",
-  head: [
-    ["script", { src: "../utils/auth.js" }],
-  ],
-  vite: {
-    define: {
-      'process.env': process.env
-    },
-  },
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
