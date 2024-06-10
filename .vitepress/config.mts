@@ -5,6 +5,7 @@ dotenv.config();
 
 export default defineConfig({
   title: "Dillo Docs",
+  base: "/dillo-docs/",
   description: "Official dillo documentation for users",
   themeConfig: {
     nav: [
