@@ -1,7 +1,6 @@
-# v0.1.2 / 10/06/2024
+# v0.1.3 / 10/06/2024
 
 ## General
 
-- Disabled authentication
-- Updated deploy.yml file
+- Fixed deploy.yml by changing path at artifact job
   
