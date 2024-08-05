@@ -31,6 +31,13 @@ export default defineConfig({
         ],
       },
       {
+        text: "Support Dashboard",
+        collapsed: false,
+        items: [
+          { text: "Balances", link: "/guides/balances" },
+        ],
+      },
+      {
         text: "Examples",
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
