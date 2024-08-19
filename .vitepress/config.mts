@@ -22,7 +22,7 @@ export default defineConfig({
           { text: "Resources", link: "/" },
           { text: "Areas", link: "/" },
           { text: "Cycles", link: "/" },
-          { text: "Stores", link: "/" },
+          { text: "Stores", link: "/guides/stores" },
           { text: "Products", link: "/guides/products" },
           { text: "Inventory", link: "/guides/inventory" },
           { text: "Sensors", link: "/" },
