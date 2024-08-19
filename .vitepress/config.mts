@@ -25,7 +25,7 @@ export default defineConfig({
           { text: "Stores", link: "/guides/stores" },
           { text: "Products", link: "/guides/products" },
           { text: "Inventory", link: "/guides/inventory" },
-          { text: "Sensors", link: "/" },
+          { text: "Sensors", link: "/guides/sensors" },
           { text: "Notifications", link: "/" },
           { text: "Utils", link: "/guides/utils" },
         ],
