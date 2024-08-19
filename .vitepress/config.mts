@@ -20,7 +20,7 @@ export default defineConfig({
           { text: "Users", link: "/guides/users" },
           { text: "Permissions", link: "/guides/permissions" },
           { text: "Resources", link: "/" },
-          { text: "Areas", link: "/" },
+          { text: "Areas", link: "/guides/areas" },
           { text: "Cycles", link: "/" },
           { text: "Stores", link: "/guides/stores" },
           { text: "Products", link: "/guides/products" },
