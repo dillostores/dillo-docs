@@ -35,6 +35,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Balances", link: "/guides/balances" },
+          { text: "Manual refunds", link: "/guides/manual-refunds" },
         ],
       },
       {
