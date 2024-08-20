@@ -20,12 +20,12 @@ export default defineConfig({
           { text: "Users", link: "/guides/users" },
           { text: "Permissions", link: "/guides/permissions" },
           { text: "Resources", link: "/" },
-          { text: "Areas", link: "/" },
+          { text: "Areas", link: "/guides/areas" },
           { text: "Cycles", link: "/" },
-          { text: "Stores", link: "/" },
+          { text: "Stores", link: "/guides/stores" },
           { text: "Products", link: "/guides/products" },
           { text: "Inventory", link: "/guides/inventory" },
-          { text: "Sensors", link: "/" },
+          { text: "Sensors", link: "/guides/sensors" },
           { text: "Notifications", link: "/" },
           { text: "Utils", link: "/guides/utils" },
         ],
@@ -35,6 +35,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Balances", link: "/guides/balances" },
+          { text: "Manual refunds", link: "/guides/manual-refunds" },
         ],
       },
       {
